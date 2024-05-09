@@ -23,6 +23,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 15px;
+    font-size: 14px;
 }
 .edu{
     display: flex;
