@@ -3,70 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-.ak{
+.about{
+    border: 1px solid gainsboro;
+    width: 40%;
+    margin: auto;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(220, 220, 220, 0.688);
+}
+.me{
     text-align: center;
-}
-.ak img{
-    border-radius: 50%;
-    border: 1px solid black;
-    box-shadow: 4px 4px 9px 4px rgb(133, 130, 130);
-}
-.ab{
-    text-align: center;
-    padding-bottom: 50px;
-    text-shadow: 1px 1px rgba(128, 128, 128, 0.895);
-    margin-top: 10px;
-}
-.sec{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 15px;
-}
-.edu{
-    display: flex;
-    align-items: center;
-    margin-left: 300px;
-    margin-top: 5px;
-    margin-left: 300px;
-}
-#fan{
-    margin-left: 10px;
-}
-.top{
-    margin-top: 20px;
+    margin-top: 50px;
+    letter-spacing: 3px;
 }
 
-#uni{
-    margin-right: 12px;
-    margin-bottom: 10px;
-}
-#uni p{
-    margin-bottom: 20px;
-}
-
-div p{
-    margin-bottom: 10px;
-}
-.lead{
-    display: flex;
+.moe{
     text-align: center;
+    margin-top: 100px;
+    /* margin-left: 10px; */ 
+
+    padding: 5px;
 }
-/* .land{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
 @media screen and (max-width:800px){
-    .edu{
-        display: flex;
-        align-items: start;
-        margin-bottom: 20px;
-        margin-left: 3px;
+
+    .about{
         width: 100%;
-    }
-    .sec{
-        overflow: hidden;
+        height: 300px;
     }
 }
